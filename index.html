@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Block Blast - Strawberry Puzzle Game</title>
+  <meta name="description" content="Official Privacy Policy for Block Blast - Strawberry Puzzle Game by BlueAppsBox." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-gradient: linear-gradient(180deg, #2b020d 0%, #4a0418 40%, #700624 80%, #940a32 100%);
+      --card-bg: rgba(45, 3, 14, 0.85);
+      --card-border: rgba(255, 120, 160, 0.35);
+      --text-main: #fce7ed;
+      --text-muted: #f8b4c4;
+      --accent-gold: #ffe066;
+      --accent-pink: #ff4d6d;
+      --accent-green: #4ade80;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-main);
+      line-height: 1.7;
+      min-height: 100vh;
+      padding: 24px 16px 60px 16px;
+    }
+    .container { max-width: 820px; margin: 0 auto; }
+    .header-card {
+      background: var(--card-bg);
+      border: 2px solid var(--card-border);
+      border-radius: 24px;
+      padding: 32px 24px;
+      text-align: center;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(12px);
+      margin-bottom: 24px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: linear-gradient(135deg, #ba1240, #ff4d6d);
+      color: #ffffff;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 14px;
+      border: 1.5px solid rgba(255, 200, 220, 0.6);
+    }
+    h1 {
+      font-family: 'Fredoka', cursive, sans-serif;
+      font-size: clamp(26px, 4vw, 36px);
+      font-weight: 700;
+      color: var(--accent-gold);
+      margin-bottom: 8px;
+    }
+    .subtitle { font-size: 15px; color: var(--text-muted); font-weight: 600; }
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 20px;
+      text-align: left;
+    }
+    .meta-box {
+      background: rgba(20, 1, 6, 0.6);
+      border: 1px solid rgba(255, 120, 160, 0.25);
+      border-radius: 14px;
+      padding: 12px 14px;
+    }
+    .meta-label {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--accent-gold);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    .meta-val {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #ffffff;
+      word-break: break-all;
+    }
+    .content-card {
+      background: var(--card-bg);
+      border: 2px solid var(--card-border);
+      border-radius: 24px;
+      padding: 32px 28px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(12px);
+    }
+    h2 {
+      font-family: 'Fredoka', cursive, sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--accent-gold);
+      margin: 28px 0 12px 0;
+      padding-bottom: 6px;
+      border-bottom: 1.5px solid rgba(255, 120, 160, 0.25);
+    }
+    h2:first-of-type { margin-top: 0; }
+    p { margin-bottom: 14px; font-size: 14.5px; }
+    ul { margin: 0 0 16px 22px; }
+    li { margin-bottom: 8px; font-size: 14px; color: var(--text-muted); }
+    li strong { color: #ffffff; }
+    .callout-box {
+      background: rgba(255, 224, 102, 0.12);
+      border-left: 4px solid var(--accent-gold);
+      border-radius: 0 14px 14px 0;
+      padding: 14px 18px;
+      margin: 18px 0;
+      font-size: 13.5px;
+    }
+    .highlight-card {
+      background: rgba(74, 222, 128, 0.1);
+      border: 1.5px solid rgba(74, 222, 128, 0.35);
+      border-radius: 16px;
+      padding: 16px;
+      margin: 16px 0;
+    }
+    .highlight-card h3 {
+      font-size: 15px;
+      color: var(--accent-green);
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    a { color: var(--accent-gold); text-decoration: underline; }
+    .contact-box {
+      background: rgba(30, 2, 10, 0.8);
+      border: 2px solid var(--card-border);
+      border-radius: 18px;
+      padding: 20px;
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .contact-row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 14px;
+    }
+    .btn-copy {
+      background: linear-gradient(135deg, var(--accent-pink), #ba1240);
+      color: #ffffff;
+      border: 1.5px solid #ffccd5;
+      padding: 6px 14px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    .footer { text-align: center; margin-top: 32px; font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header-card">
+      <div class="badge">🍓 OFFICIAL PRIVACY POLICY</div>
+      <h1>Block Blast - Strawberry Puzzle Game</h1>
+      <p class="subtitle">Compliance Document for Google Play Developer Policy</p>
+
+      <div class="meta-grid">
+        <div class="meta-box">
+          <div class="meta-label">App Title</div>
+          <div class="meta-val">Block Blast - Strawberry Puzzle Game</div>
+        </div>
+        <div class="meta-box">
+          <div class="meta-label">Package Name</div>
+          <div class="meta-val">com.blueapps.strawaberrypuzzle</div>
+        </div>
+        <div class="meta-box">
+          <div class="meta-label">Developer / Company</div>
+          <div class="meta-val">BlueAppsBox</div>
+        </div>
+        <div class="meta-box">
+          <div class="meta-label">Official Support</div>
+          <div class="meta-val">blueappsmanager@gmail.com</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content-card">
+      <h2>1. Introduction</h2>
+      <p>This Privacy Policy governs the practices of <strong>BlueAppsBox</strong> ("Company", "we", "our", or "us") regarding your privacy while using our mobile application: <strong>Block Blast - Strawberry Puzzle Game</strong> (Package ID: <code>com.blueapps.strawaberrypuzzle</code>).</p>
+      <p>We are dedicated to respecting and safeguarding your personal privacy. Our game provides delightful block-puzzle entertainment without requiring accounts, logins, or intrusive tracking.</p>
+
+      <h2>2. Zero Personal Data Collection</h2>
+      <div class="callout-box">
+        <strong>Strict Privacy Guarantee:</strong> BlueAppsBox does <strong>NOT</strong> collect, store, sell, or transmit any Personally Identifiable Information (PII) such as your real name, email address, physical address, phone number, contacts, financial info, or biometric data.
+      </div>
+      <p>You can play all 300 levels entirely offline without providing any credentials or identity verifications.</p>
+
+      <h2>3. Device-Local Storage & Gameplay Progression</h2>
+      <p>To ensure you never lose your game progress, the app stores a small set of non-personal game variables directly on your personal device using local storage:</p>
+      <ul>
+        <li><strong>Current Highest Level Unlocked:</strong> Tracks your progression from Level 1 up to Level 300.</li>
+        <li><strong>Personal High Score:</strong> Remembers your highest strawberry line-blast record.</li>
+        <li><strong>Sound & Music Preferences:</strong> Stores whether you have enabled or muted chime effects.</li>
+      </ul>
+      <p>This information remains exclusively on your device and is never uploaded to any external server or shared with third parties.</p>
+
+      <h2>4. Third-Party Advertising (Google AdMob)</h2>
+      <p>To keep the game free to play for everyone, <strong>Block Blast - Strawberry Puzzle Game</strong> utilizes the official <strong>Google Mobile Ads SDK (AdMob)</strong> to show advertisements (banner ads, cold-start open ads, and optional rewarded video ads that give you an in-game board revive when out of moves).</p>
+      <div class="highlight-card">
+        <h3>Google AdMob Disclosures:</h3>
+        <p>Google AdMob may collect and process pseudonymous identifiers and device telemetry to deliver relevant, safe advertisements:</p>
+        <ul>
+          <li><strong>Advertising ID (GAID):</strong> Resettable advertising identifier provided by Android.</li>
+          <li><strong>Device Technical Information:</strong> Device model, operating system version, and screen resolution.</li>
+          <li><strong>Diagnostic & Performance Data:</strong> Ad load timestamps, interaction events, and crash logs.</li>
+        </ul>
+      </div>
+      <p>For more details on how Google handles advertising data, please review the <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising & Privacy Policy</a>.</p>
+
+      <h2>5. Children's Privacy (COPPA Compliance)</h2>
+      <p><strong>Block Blast - Strawberry Puzzle Game</strong> is a family-friendly casual puzzle game suitable for audiences of all ages, including children under the age of 13. In accordance with the <strong>Children's Online Privacy Protection Act (COPPA)</strong> and Google Play's Families Policy:</p>
+      <ul>
+        <li>We do not knowingly collect personal information from children under 13.</li>
+        <li>Ads served within the game comply with Google Play's Families and Child-Directed policies.</li>
+        <li>If you believe a child has inadvertently submitted personal information to us, please notify us at <strong>blueappsmanager@gmail.com</strong>, and we will take immediate corrective action.</li>
+      </ul>
+
+      <h2>6. Data Security & Retention</h2>
+      <p>Since BlueAppsBox does not operate external databases that retain user personal data, there is no risk of your private credentials or personal data being breached or sold. Game progress data resides on your device and can be cleared at any time by clearing the application storage via Android Settings.</p>
+
+      <h2>7. User Rights & Controls</h2>
+      <p>You maintain complete control over your advertising preferences on Android:</p>
+      <ul>
+        <li><strong>Reset or Delete Advertising ID:</strong> Go to <em>Settings &gt; Google &gt; Ads &gt; Delete advertising ID</em>.</li>
+        <li><strong>Opt-Out of Personalized Ads:</strong> Turn on "Opt out of Ads Personalization" in your device settings.</li>
+      </ul>
+
+      <h2>8. Policy Updates</h2>
+      <p>We may periodically update this Privacy Policy to reflect app enhancements or Google Play Developer Policy updates. Any revisions will be published with an updated date.</p>
+
+      <h2>9. Contact & Developer Inquiries</h2>
+      <p>If you have any questions, feedback, or data privacy requests regarding <strong>Block Blast - Strawberry Puzzle Game</strong>, please contact our privacy compliance team:</p>
+      <div class="contact-box">
+        <div class="contact-row">
+          <span><strong>Developer Company:</strong> BlueAppsBox</span>
+        </div>
+        <div class="contact-row">
+          <span><strong>Application:</strong> Block Blast - Strawberry Puzzle Game</span>
+        </div>
+        <div class="contact-row">
+          <span><strong>Package ID:</strong> com.blueapps.strawaberrypuzzle</span>
+        </div>
+        <div class="contact-row" style="align-items:center;">
+          <span><strong>Official Email:</strong> <span id="email-text">blueappsmanager@gmail.com</span></span>
+          <button class="btn-copy" id="btn-copy-email">📋 Copy Email</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="current-year">2026</span> <strong>BlueAppsBox</strong>. All rights reserved.</p>
+      <p style="font-size:12px; margin-top:4px;">Last Updated: October 2026 &bull; Block Blast - Strawberry Puzzle Game</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('btn-copy-email').addEventListener('click', function() {
+      const email = document.getElementById('email-text').textContent;
+      navigator.clipboard.writeText(email).then(() => {
+        this.textContent = '✅ Copied!';
+        setTimeout(() => { this.textContent = '📋 Copy Email'; }, 2200);
+      }).catch(() => { alert('Email: ' + email); });
+    });
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
